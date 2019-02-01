@@ -21,13 +21,13 @@
 html{
 	box-sizing : border-box;
 	font-size: 1rem;
-	font-family: serif, 'Time New Roman';
+	font-family: "arial",serif,'Times New Roman', Times, serif;
 
 }
 body{
-	background-image: :url("../img/background.jpeg");
+	background-image: url("../img/background.jpeg");
 	background-repeat: no-repeat;
-	width: 75%;
+	width: 100%;
 	margin: auto;
 }
 video {
@@ -35,7 +35,10 @@ video {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    top , right , bottom , left :0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     position: absolute;
     max-width: 100%;
     width:auto;
@@ -262,7 +265,7 @@ textarea{
 	.main h2 {
 		display: none;
 	}
-	.main article, {
+	.main article {
 		flex:100%;
 		max-width: 100%;
 	}
@@ -292,6 +295,7 @@ textarea{
 		width: 100%;
 	}
 	li a{
+		display: inline;
 		float: none;
 		font-size: 1rem;
 	}
@@ -300,7 +304,7 @@ textarea{
 		padding-bottom: 0;
 	}
 	h1 a{
-		font-size: :1rem;
+		font-size:1rem;
 	}
 	.banner{
 		font-size: 2rem;
@@ -310,6 +314,9 @@ textarea{
 @media screen and (min-width: 361px) and (max-width: 960px){
 
 	.tablet{
+		display: none;
+	}
+	.contact-banner{
 		display: none;
 	}
 	body{
@@ -334,7 +341,7 @@ textarea{
 		flex-wrap:wrap;
 		max-width: 100%;
 	}
-	.main article, {
+	.main article {
 		flex:50%;
 		height: 300px;
 		width: 100%;
