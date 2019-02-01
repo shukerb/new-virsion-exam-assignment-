@@ -1,0 +1,3 @@
+student name : Shuker Barbour
+student number : 628584
+student class : A

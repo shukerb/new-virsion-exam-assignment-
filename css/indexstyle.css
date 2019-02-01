@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing : border-box;
+	font-weight: normal;
+	font-family: Arial, sans-serif;
+	list-style-type:none;
+
+}
+html{
+	font-size: 16px;
+	box-sizing : border-box;
+
+}
+body{
+	background-image: :url("../img/background.png");
+	background-repeat: no-repeat;
+	width: 1080px;
+	margin: auto;
+}
+video {
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top , right , bottom , left :0;
+    position: absolute;
+    max-width: 100%
+    width:auto;
+    z-index: -1;
+}
+
+
+  /* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/raleway-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Raleway'), local('Raleway-Regular'),
+       url('../fonts/raleway-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/raleway-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/raleway-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/raleway-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/raleway-v12-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+.body{
+	min-width: 250px;
+	max-width: 960px;
+	margin :0 auto;
+}
+.body section,.main{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+
+
+}
+header{
+	background-image: url(../img/companylogoBG.jpg);
+	background-size: cover;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	padding: 15px;
+	width: 100%;
+	height: 85px;
+}
+
+header a{
+	display: flex;
+	width: 100%;
+	font-size: 2.5rem;
+	color: black;
+	text-align: center;
+	
+	font-family: Raleway , sans-serif;
+}
+ nav{
+ 	display: flex;
+ 	width: 100%
+ 	border: 4px solid white;
+ 	background: #727272;
+ 	min-height: 60px;
+ 	justify-content :center;
+ 	align-items : center;
+
+ }
+
+.nav-list{
+	list-style-type: none;
+	margin: auto;
+	overflow: hidden;
+	justify-content : space-between;
+	align-items : center;
+	flex-direction :column;
+	width: 100%;
+	text-align: center;
+	padding-top: 12px;
+	max-width: 500px;
+
+}
+nav li {
+	margin: :15px 0px;
+	display: inline;
+}
+li a {
+	display: block;
+	text-align: center;
+	padding: 20px;
+	float: left;
+	text-transform: uppercase;
+}
+nav a {
+	color: #ffffff;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+nav a:hover{
+	color: #006bc6;
+}
+
+
+}
+footer{
+	background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    vertical-align: middle;
+}
+footer p {
+	color: white;
+}
+nav{
+	background-color: gray
+	display :flex;
+	width: 100%;
+
+}
+.midle{
+	 display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background: #2699FB;
+    text-transform: uppercase;
+}
+.midle h2{
+	color: white;
+	font-size: 1rem;
+	max-width: 220px;
+}
+img {
+	 height:auto;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    border: 3px solid #fff;
+}
+
+
+.background-logo{
+	background-image:url("img/companylogoBG.jpg");
+	width: 100%;
+	height: 100%;	
+}
+
