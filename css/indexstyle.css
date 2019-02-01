@@ -2,7 +2,7 @@
 	margin: 0;
 	border: 0;
 	padding: 0;
-	box-sizing : border-box;
+	box-sizing:border-box;
 	font-weight: normal;
 	font-family: Arial, sans-serif;
 	list-style-type:none;
@@ -26,7 +26,7 @@ video {
     background-size: cover;
     top , right , bottom , left :0;
     position: absolute;
-    max-width: 100%
+    max-width: 100%;
     width:auto;
     z-index: -1;
 }
@@ -45,7 +45,49 @@ video {
        url('../fonts/raleway-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/raleway-v12-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
 }
-
+h1 {
+	background-image: url("../img/companylogoBG.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+a>h1{
+	text-align: center;
+	padding: 15px;
+	display: block;
+}
+h2{
+	box-sizing:border-box;
+	background: #2699FB;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 1%;
+	width: 100%;
+	font-size: 100px;
+}
+.main{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	background-size: cover;
+	background-position: center;
+	flex:100%;
+	max-width: 100%;
+	height: auto;
+	
+}
+.main > article{
+	background-size: cover;
+	background-position: center;
+	flex:100%;
+	max-width: 100%;
+	height: auto;
+}
 .body{
 	min-width: 250px;
 	max-width: 960px;
@@ -82,12 +124,13 @@ header a{
 }
  nav{
  	display: flex;
- 	width: 100%
- 	border: 4px solid white;
+ 	width: 100%;
  	background: #727272;
  	min-height: 60px;
  	justify-content :center;
  	align-items : center;
+ 	font-size: 1.50rem;
+
 
  }
 
@@ -95,18 +138,16 @@ header a{
 	list-style-type: none;
 	margin: auto;
 	overflow: hidden;
-	justify-content : space-between;
-	align-items : center;
-	flex-direction :column;
-	width: 100%;
 	text-align: center;
-	padding-top: 12px;
-	max-width: 500px;
+	width: 100%;
+
 
 }
 nav li {
-	margin: :15px 0px;
+	
 	display: inline;
+	line-height: 11px;
+
 }
 li a {
 	display: block;
@@ -114,12 +155,9 @@ li a {
 	padding: 20px;
 	float: left;
 	text-transform: uppercase;
-}
-nav a {
 	color: #ffffff;
-	font-size: 1rem;
-	text-transform: uppercase;
 }
+
 nav a:hover{
 	color: #006bc6;
 }
@@ -127,51 +165,82 @@ nav a:hover{
 
 }
 footer{
+	list-style-type: none;
 	background: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     vertical-align: middle;
 }
 footer p {
 	color: white;
+	display: block;
+	text-align: center;
+	padding: 15px;
+	text-transform: uppercase;
 }
-nav{
-	background-color: gray
-	display :flex;
-	width: 100%;
 
+.main-product{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	width: 100%;
+	align-items:center;
 }
-.midle{
-	 display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    height: 100px;
-    background: #2699FB;
-    text-transform: uppercase;
+.main-product a{
+	background-size: cover;
+    background-position: center;
+    border: 10px solid #ffffff;
+    flex:100%;
+    max-width: 100%;
+    height: 300px;
 }
-.midle h2{
-	color: white;
-	font-size: 1rem;
-	max-width: 220px;
+
+/*Products pic*/
+.main-product a:nth-of-type(1){
+	background-image: url(../img/product1.jpg);
 }
+.main-product a:nth-of-type(2){
+	background-image: url(../img/product2.jpg);
+}
+.main-product a:nth-of-type(3){
+	background-image: url(../img/product3.jpg);
+}
+.main-product a:nth-of-type(4){
+	background-image: url(../img/product4.jpg);
+}
+.main-product a:nth-of-type(5){
+	background-image: url(../img/product5.jpg);
+}
+.main-product a:nth-of-type(6){
+	background-image: url(../img/product6.jpg);
+}
+.main-product a:nth-of-type(7){
+	background-image: url(../img/product7.jpg);
+}
+.main-product a:nth-of-type(8){
+	background-image: url(../img/product8.jpg);
+}
+.main-product a:nth-of-type(9){
+	background-image: url(../img/product9.jpg);
+}
+.main-product a:nth-of-type(10){
+	background-image: url(../img/product10.jpg);
+}
+.main-product a:nth-of-type(11){
+	background-image: url(../img/product11.jpg);
+}
+.main-product a:nth-of-type(12){
+	background-image: url(../img/product12.jpg);
+}
+
 img {
-	 height:auto;
+	height:auto;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: block;
     border: 3px solid #fff;
+    text-align: center;
 }
-
-
-.background-logo{
-	background-image:url("img/companylogoBG.jpg");
-	width: 100%;
-	height: 100%;	
-}
-
